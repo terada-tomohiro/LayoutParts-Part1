@@ -1,2 +1,79 @@
 @charset "UTF-8";
 /* 回答はここから */
+
+.tac {
+  text-align: center;
+}
+
+.white {
+  background: #ffffff;
+  width: 200px;
+  padding: 20px 0;
+}
+
+.text-align {
+  display: inline-block;
+  width: 90px;
+  background: #a4b3e9;
+  font-size: 16px;
+  text-align: center;
+  padding: 10px;
+}
+
+.margin {
+  display: block;
+  width: 90px;
+  background: #a4b3e9;
+  font-size: 16px;
+  text-align: center;
+  padding: 10px;
+  margin: 0 auto;
+  /* inline-block要素にmargin: 20px auto; が
+  効かない理由が分からないです。 */
+}
+
+.table {
+  display: table;
+}
+
+.table-cell {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.table-cell p {
+  display: inline-block;
+  padding: 10px;
+  font-size: 16px;
+  background: #ffffff;
+}
+
+
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex p {
+  display: block;
+  padding: 10px;
+  font-size: 16px;
+  background: #ffffff;
+}
+
+.relative {
+  position: relative;
+}
+
+.position {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+  font-size: 16px;
+  background: #a4b3e9;
+}
